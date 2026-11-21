@@ -1,0 +1,46 @@
+OCC_CODE,Occupation,Probability,EMPLOYMENT,list,EXPOSED_EMPLOYMENT
+41-9041,Telemarketers,0.99,214570,highest_probability,
+43-9021,Data Entry Keyers,0.99,193890,highest_probability,
+25-4031,Library Technicians,0.99,93400,highest_probability,
+13-2053,Insurance Underwriters,0.99,90310,highest_probability,
+43-5011,Cargo and Freight Agents,0.99,88910,highest_probability,
+13-2082,Tax Preparers,0.99,63600,highest_probability,
+23-2093,Title Examiners; Abstractors; and Searchers,0.99,51810,highest_probability,
+43-4141,New Accounts Clerks,0.99,41430,highest_probability,
+51-9151,Photographic Process Workers and Processing Machine Operators,0.99,26200,highest_probability,
+51-6051,Sewers; Hand,0.99,5170,highest_probability,
+49-9064,Watch Repairers,0.99,1090,highest_probability,
+15-2091,Mathematical Technicians,0.99,220,highest_probability,
+43-3031,Bookkeeping; Accounting; and Auditing Clerks,0.98,1566970,highest_probability,
+43-5071,Shipping; Receiving; and Traffic Clerks,0.98,677020,highest_probability,
+51-9061,Inspectors; Testers; Sorters; Samplers; and Weighers,0.98,518950,highest_probability,
+29-1125,Recreational Therapists,0.0028,18080,lowest_probability,
+49-1011,First-Line Supervisors of Mechanics; Installers; and Repairers,0.003,453360,lowest_probability,
+11-9161,Emergency Management Directors,0.003,9540,lowest_probability,
+21-1023,Mental Health and Substance Abuse Social Workers,0.0031,111370,lowest_probability,
+29-1181,Audiologists,0.0033,11830,lowest_probability,
+21-1022,Healthcare Social Workers,0.0035,159340,lowest_probability,
+29-1122,Occupational Therapists,0.0035,118060,lowest_probability,
+29-2091,Orthotists and Prosthetists,0.0035,6260,lowest_probability,
+33-1021,First-Line Supervisors of Fire Fighting and Prevention Workers,0.0036,56980,lowest_probability,
+29-1022,Oral and Maxillofacial Surgeons,0.0036,3450,lowest_probability,
+29-1031,Dietitians and Nutritionists,0.0039,61430,lowest_probability,
+11-9081,Lodging Managers,0.0039,35390,lowest_probability,
+27-2032,Choreographers,0.004,4110,lowest_probability,
+41-9031,Sales Engineers,0.0041,73930,lowest_probability,
+25-9031,Instructional Coordinators,0.0042,147310,lowest_probability,
+41-2031,Retail Salespersons,0.92,4528570,largest_exposed_employment,4166284.4000000004
+41-2011,Cashiers,0.97,3540980,largest_exposed_employment,3434750.6
+35-3021,Combined Food Preparation and Serving Workers; Including Fast Food,0.92,3426090,largest_exposed_employment,3152002.8000000003
+43-9061,Office Clerks; General,0.96,2955560,largest_exposed_employment,2837337.6
+35-3031,Waiters and Waitresses,0.94,2564620,largest_exposed_employment,2410742.8
+43-6014,Secretaries and Administrative Assistants; Except Legal; Medical; and Executive,0.96,2295480,largest_exposed_employment,2203660.8
+53-7062,Laborers and Freight; Stock; and Material Movers; Hand,0.85,2587940,largest_exposed_employment,2199749.0
+43-3031,Bookkeeping; Accounting; and Auditing Clerks,0.98,1566970,largest_exposed_employment,1535630.5999999999
+43-4051,Customer Service Representatives,0.55,2707030,largest_exposed_employment,1488866.5000000002
+37-2011,Janitors and Cleaners; Except Maids and Housekeeping Cleaners,0.66,2161710,largest_exposed_employment,1426728.6
+53-3032,Heavy and Tractor-Trailer Truck Drivers,0.79,1704540,largest_exposed_employment,1346586.6
+43-5081,Stock Clerks and Order Fillers,0.64,2016320,largest_exposed_employment,1290444.8
+41-4012,Sales Representatives; Wholesale and Manufacturing; Except Technical and Scientific Products,0.85,1404070,largest_exposed_employment,1193459.5
+13-2011,Accountants and Auditors,0.94,1246530,largest_exposed_employment,1171738.2
+35-2014,Cooks; Restaurant,0.96,1217360,largest_exposed_employment,1168665.5999999999

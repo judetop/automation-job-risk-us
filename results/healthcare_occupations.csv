@@ -1,0 +1,61 @@
+OCC_CODE,Occupation,SOC_MAJOR_NAME,Probability,EMPLOYMENT
+29-2052,Pharmacy Technicians,Healthcare Practitioners & Technical,0.92,398410
+29-2071,Medical Records and Health Information Technicians,Healthcare Practitioners & Technical,0.91,200130
+29-2011,Medical and Clinical Laboratory Technologists,Healthcare Practitioners & Technical,0.9,166730
+31-9094,Medical Transcriptionists,Healthcare Support,0.89,54100
+31-9096,Veterinary Assistants and Laboratory Animal Caretakers,Healthcare Support,0.86,79790
+31-9093,Medical Equipment Preparers,Healthcare Support,0.78,52520
+39-9021,Personal Care Aides,Personal Care & Service,0.74,1492220
+31-9095,Pharmacy Aides,Healthcare Support,0.72,35840
+29-2081,Opticians; Dispensing,Healthcare Practitioners & Technical,0.71,75240
+29-2021,Dental Hygienists,Healthcare Practitioners & Technical,0.68,204990
+31-9799,Healthcare Support Workers; All Other,Healthcare Support,0.63,0
+31-2022,Physical Therapist Aides,Healthcare Support,0.61,50010
+31-9011,Massage Therapists,Healthcare Support,0.54,95820
+31-9091,Dental Assistants,Healthcare Support,0.51,327270
+29-2012,Medical and Clinical Laboratory Technicians,Healthcare Practitioners & Technical,0.47,160210
+31-1013,Psychiatric Aides,Healthcare Support,0.47,65190
+29-2799,Health Technologists and Technicians; All Other,Healthcare Practitioners & Technical,0.4,0
+31-1011,Home Health Aides,Healthcare Support,0.39,814290
+29-2032,Diagnostic Medical Sonographers,Healthcare Practitioners & Technical,0.35,65790
+29-2055,Surgical Technologists,Healthcare Practitioners & Technical,0.34,105720
+29-1124,Radiation Therapists,Healthcare Practitioners & Technical,0.34,17130
+31-9092,Medical Assistants,Healthcare Support,0.3,623600
+31-2012,Occupational Therapy Aides,Healthcare Support,0.27,6830
+29-9012,Occupational Health and Safety Technicians,Healthcare Practitioners & Technical,0.25,16390
+29-2037,Radiologic Technologists and Technicians,Healthcare Practitioners & Technical,0.23,0
+29-2031,Cardiovascular Technologists and Technicians,Healthcare Practitioners & Technical,0.23,53480
+29-9011,Occupational Health and Safety Specialists,Healthcare Practitioners & Technical,0.17,76640
+29-1071,Physician Assistants,Healthcare Practitioners & Technical,0.14,104100
+29-1041,Optometrists,Healthcare Practitioners & Technical,0.14,36420
+29-2051,Dietetic Technicians,Healthcare Practitioners & Technical,0.13,32190
+29-2033,Nuclear Medicine Technologists,Healthcare Practitioners & Technical,0.13,19630
+21-1093,Social and Human Service Assistants,Community & Social Service,0.13,360720
+29-2054,Respiratory Therapy Technicians,Healthcare Practitioners & Technical,0.1,10150
+29-1126,Respiratory Therapists,Healthcare Practitioners & Technical,0.066,126820
+29-2061,Licensed Practical and Licensed Vocational Nurses,Healthcare Practitioners & Technical,0.058,702380
+29-1024,Prosthodontists,Healthcare Practitioners & Technical,0.055,0
+29-9799,Healthcare Practitioners and Technical Workers; All Other,Healthcare Practitioners & Technical,0.055,0
+29-2041,Emergency Medical Technicians and Paramedics,Healthcare Practitioners & Technical,0.049,241120
+29-2053,Psychiatric Technicians,Healthcare Practitioners & Technical,0.043,61140
+29-1131,Veterinarians,Healthcare Practitioners & Technical,0.038,67650
+29-2056,Veterinary Technologists and Technicians,Healthcare Practitioners & Technical,0.029,99400
+31-2011,Occupational Therapy Assistants,Healthcare Support,0.028,38170
+29-1011,Chiropractors,Healthcare Practitioners & Technical,0.027,32950
+29-1023,Orthodontists,Healthcare Practitioners & Technical,0.023,3800
+29-1123,Physical Therapists,Healthcare Practitioners & Technical,0.021,216950
+29-1199,Health Diagnosing and Treating Practitioners; All Other,Healthcare Practitioners & Technical,0.02,35980
+31-2021,Physical Therapist Assistants,Healthcare Support,0.018,85590
+29-1051,Pharmacists,Healthcare Practitioners & Technical,0.012,305520
+29-1111,Registered Nurses,Healthcare Practitioners & Technical,0.009,0
+29-9091,Athletic Trainers,Healthcare Practitioners & Technical,0.0071,23960
+29-1127,Speech-Language Pathologists,Healthcare Practitioners & Technical,0.0064,136010
+29-1081,Podiatrists,Healthcare Practitioners & Technical,0.0046,9320
+29-1021,Dentists; General,Healthcare Practitioners & Technical,0.0044,105650
+29-1060,Physicians and Surgeons,Healthcare Practitioners & Technical,0.0042,0
+29-1031,Dietitians and Nutritionists,Healthcare Practitioners & Technical,0.0039,61430
+29-1022,Oral and Maxillofacial Surgeons,Healthcare Practitioners & Technical,0.0036,3450
+29-1122,Occupational Therapists,Healthcare Practitioners & Technical,0.0035,118060
+29-2091,Orthotists and Prosthetists,Healthcare Practitioners & Technical,0.0035,6260
+29-1181,Audiologists,Healthcare Practitioners & Technical,0.0033,11830
+29-1125,Recreational Therapists,Healthcare Practitioners & Technical,0.0028,18080
