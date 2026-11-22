@@ -4,11 +4,11 @@ A reproducible analysis of which US jobs, occupational groups and states are mos
 
 The project is a cleaned, re-run and corrected version of the analysis in my MSc dissertation:
 
-> Obidi, J. (2023). *Impact of Automation and Artificial Intelligence on Jobs in Developed Nations (US)*. MSc Data Analytics and Technology dissertation, University of Bolton.
+> Obidi, J. T. (2023). *Impact of Automation and Artificial Intelligence on Jobs in Developed Nations (US)*. MSc Data Analytics and Technology dissertation, University of Bolton.
 
 The original methodology is kept (data sources, merge, exploratory analysis, four research questions, and a comparison of linear regression, random forest and gradient boosting). Errors found while re-running it are corrected and documented in [Corrections to the original analysis](#corrections-to-the-original-analysis).
 
-**Author:** Jude Obidi · **Licence:** MIT (code) · **Main notebook:** [`notebooks/analysis.ipynb`](notebooks/analysis.ipynb)
+**Author:** Jude Topa Obidi · **Licence:** MIT (code) · **Main notebook:** [`notebooks/analysis.ipynb`](notebooks/analysis.ipynb)
 
 ---
 
@@ -147,7 +147,7 @@ Full list: [`results/healthcare_occupations.csv`](results/healthcare_occupations
 ```
 .
 ├── README.md
-├── LICENSE                         MIT, Jude Obidi
+├── LICENSE                         MIT, Jude Topa Obidi
 ├── CITATION.cff
 ├── requirements.txt                environment used for the committed outputs
 ├── requirements-replication-2023.txt   versions that reproduce the dissertation's numbers exactly
@@ -184,7 +184,7 @@ All randomness is fixed with `random_state = 42`.
 ## Citation
 
 ```
-Obidi, J. (2023). Impact of Automation and Artificial Intelligence on Jobs in Developed
+Obidi, J. T. (2023). Impact of Automation and Artificial Intelligence on Jobs in Developed
 Nations (US). MSc dissertation, Data Analytics and Technology, University of Bolton.
 ```
 

@@ -3,14 +3,14 @@ message: "If you use this analysis, please cite the dissertation."
 title: "Impact of Automation and Artificial Intelligence on Jobs in Developed Nations (US): reproducible analysis"
 authors:
   - family-names: Obidi
-    given-names: Jude
+    given-names: Jude Topa
 license: MIT
 preferred-citation:
   type: thesis
   title: "Impact of Automation and Artificial Intelligence on Jobs in Developed Nations (US)"
   authors:
     - family-names: Obidi
-      given-names: Jude
+      given-names: Jude Topa
   thesis-type: "MSc dissertation (Data Analytics and Technology)"
   institution:
     name: "University of Bolton"
