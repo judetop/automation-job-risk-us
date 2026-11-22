@@ -1,6 +1,6 @@
 # Automation and AI Risk to US Jobs: occupations, occupational groups and states
 
-A reproducible analysis of which US jobs, occupational groups and states are most exposed to automation, and whether machine learning can predict an occupation's automation risk from labour-market data. It combines Frey & Osborne's probabilities of computerisation with U.S. Bureau of Labor Statistics (BLS) employment and wage data for about 700 occupations.
+A reproducible analysis of which US jobs, occupational groups and states are most exposed to automation and artificial intelligence (AI), and whether machine learning can predict an occupation's automation and AI risk from labour-market data. It combines Frey & Osborne's probabilities of computerisation with U.S. Bureau of Labor Statistics (BLS) employment and wage data for about 700 occupations. Those probabilities measure susceptibility to computerisation, including machine learning and mobile robotics, as estimated in 2013.
 
 The project is a cleaned, re-run and corrected version of the analysis in my MSc dissertation:
 
@@ -14,10 +14,10 @@ The original methodology is kept (data sources, merge, exploratory analysis, fou
 
 ## Research questions
 
-1. Which jobs are most prone to automation?
-2. How does automation risk vary across occupational groups?
-3. Does automation risk differ between US states?
-4. Can machine learning predict an occupation's automation risk, and which model performs best?
+1. Which jobs are most prone to automation and AI?
+2. How does automation and AI risk vary across occupational groups?
+3. Does automation and AI risk differ between US states?
+4. Can machine learning predict an occupation's automation and AI risk, and which model performs best?
 
 ## Data
 
@@ -44,11 +44,11 @@ Credit: Frey, C. B. and Osborne, M. A. (2017). The future of employment: How sus
 
 ## Key results
 
-### RQ1: Jobs most prone to automation
+### RQ1: Jobs most prone to automation and AI
 
 Twelve occupations have the maximum probability of 0.99, including telemarketers, data entry keyers, insurance underwriters, tax preparers and new accounts clerks. The lowest-probability occupations (below 0.005) include recreational therapists, occupational therapists, audiologists, healthcare and mental-health social workers, and emergency management directors.
 
-Weighting by employment, the occupations with the most jobs exposed are large, lower-wage occupations: retail salespersons (4.5 million jobs, p = 0.92), cashiers (3.5M, 0.97), combined food preparation and serving workers (3.4M, 0.92), general office clerks (3.0M, 0.96) and waiters and waitresses (2.6M, 0.94). Across all covered jobs the employment-weighted mean probability is **0.61**, and **51.7%** of jobs are in occupations with p > 0.7. Median wage and automation probability are negatively correlated (Spearman ρ = −0.54).
+Weighting by employment, the occupations with the most jobs exposed are large, lower-wage occupations: retail salespersons (4.5 million jobs, p = 0.92), cashiers (3.5M, 0.97), combined food preparation and serving workers (3.4M, 0.92), general office clerks (3.0M, 0.96) and waiters and waitresses (2.6M, 0.94). Across all covered jobs the employment-weighted mean probability is **0.61**, and **51.7%** of jobs are in occupations with p > 0.7. Median wage and the exposure probability are negatively correlated (Spearman ρ = −0.54).
 
 ![Largest exposed employment](figures/05_largest_exposed_employment.png)
 ![Wage vs probability](figures/03_wage_vs_probability.png)
@@ -77,7 +77,7 @@ The employment-weighted mean probability ranges from **0.545 (Massachusetts) to 
 
 ![Risk by state](figures/07_state_weighted_probability.png)
 
-### RQ4: Predicting automation risk with machine learning
+### RQ4: Predicting automation and AI risk with machine learning
 
 Corrected models (target = probability of computerisation; held-out test set of 138 occupations):
 
@@ -90,7 +90,7 @@ Corrected models (target = probability of computerisation; held-out test set of 
 
 Features: wages, employment, estimate standard errors and SOC major group. Without the major group, test R² is 0.387 (linear regression), 0.412 (random forest) and 0.346 (gradient boosting). See [`results/rq4_model_metrics.csv`](results/rq4_model_metrics.csv).
 
-Wage and occupational-group data explain about half of the variation in automation probability across unseen occupations. The three models perform similarly: random forest is marginally best on the test set, linear regression is best in cross-validation, and all clearly beat the baseline. The most informative features are the upper wage percentiles and the occupational group.
+Wage and occupational-group data explain about half of the variation in the exposure probability across unseen occupations. The three models perform similarly: random forest is marginally best on the test set, linear regression is best in cross-validation, and all clearly beat the baseline. The most informative features are the upper wage percentiles and the occupational group.
 
 ![Model comparison](figures/08_model_comparison.png)
 
@@ -136,7 +136,7 @@ Full list: [`results/healthcare_occupations.csv`](results/healthcare_occupations
 
 ## Limitations
 
-* **What the probabilities mean.** Frey & Osborne's probabilities (working paper 2013, published 2017) estimate the technical feasibility of computerising an occupation over an unspecified "decade or two". They came from expert labels for 70 occupations extrapolated to the rest. They are not forecasts of job losses, do not account for adoption costs, regulation or new tasks, and predate generative AI.
+* **What the probabilities mean.** Frey & Osborne's probabilities (working paper 2013, published 2017) estimate the technical feasibility of computerising an occupation, including machine learning and mobile robotics, over an unspecified "decade or two". They came from expert labels for 70 occupations extrapolated to the rest. They are not forecasts of job losses, do not account for adoption costs, regulation or new tasks, and predate generative AI.
 * **One probability per occupation.** The probability does not vary by state, so state results reflect occupational mix only.
 * **Coverage.** Employment counts come from the Kaggle compilation. Cells with fewer than 10 workers or no data are recorded as 0, 19 occupations have no employment in any state (including registered nurses and physicians), and 14 occupations do not match the 2016 BLS codes. The salary table matches BLS May 2016. The reference year of the state columns is not documented in the Kaggle dataset.
 * **Cross-sectional data.** No time dimension, so no trends or causal claims.
