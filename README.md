@@ -1,5 +1,7 @@
 # Automation and AI Risk to US Jobs: occupations, occupational groups and states
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24444703.svg)](https://doi.org/10.5281/zenodo.24444703)
+
 A reproducible analysis of which US jobs, occupational groups and states are most exposed to automation and artificial intelligence (AI), and whether machine learning can predict an occupation's automation and AI risk from labour-market data. It combines Frey & Osborne's probabilities of computerisation with U.S. Bureau of Labor Statistics (BLS) employment and wage data for about 700 occupations. Those probabilities measure susceptibility to computerisation, including machine learning and mobile robotics, as estimated in 2013.
 
 The project is a cleaned, re-run and corrected version of the analysis in my MSc dissertation:
@@ -181,7 +183,13 @@ cd src && python -m automation_risk.replicate
 
 All randomness is fixed with `random_state = 42`.
 
-## Citation
+## Preprint and how to cite
+
+The accompanying preprint is openly available on Zenodo (CC BY 4.0):
+
+> Obidi, J. T. (2026). Who Is Exposed to Automation and Artificial Intelligence in the US Labor Market? A Reproducible Machine-Learning Analysis of Occupations, States and the Healthcare Workforce [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.24444703
+
+Please cite the preprint if you use this analysis. The original dissertation may also be cited:
 
 ```
 Obidi, J. T. (2023). Impact of Automation and Artificial Intelligence on Jobs in Developed

@@ -1,18 +1,36 @@
 cff-version: 1.2.0
-message: "If you use this analysis, please cite the dissertation."
+message: "If you use this analysis, please cite the preprint."
 title: "Impact of Automation and Artificial Intelligence on Jobs in Developed Nations (US): reproducible analysis"
 authors:
   - family-names: Obidi
     given-names: Jude Topa
 license: MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24444703
+    description: The 2026 preprint
 preferred-citation:
-  type: thesis
-  title: "Impact of Automation and Artificial Intelligence on Jobs in Developed Nations (US)"
+  type: article
+  title: "Who Is Exposed to Automation and Artificial Intelligence in the US Labor Market? A Reproducible Machine-Learning Analysis of Occupations, States and the Healthcare Workforce"
   authors:
     - family-names: Obidi
       given-names: Jude Topa
-  thesis-type: "MSc dissertation (Data Analytics and Technology)"
-  institution:
-    name: "University of Bolton"
-  year: 2023
-  month: 8
+  year: 2026
+  month: 11
+  doi: 10.5281/zenodo.24444703
+  url: "https://doi.org/10.5281/zenodo.24444703"
+  publisher:
+    name: Zenodo
+  journal: Zenodo
+  notes: Preprint
+references:
+  - type: thesis
+    title: "Impact of Automation and Artificial Intelligence on Jobs in Developed Nations (US)"
+    authors:
+      - family-names: Obidi
+        given-names: Jude Topa
+    thesis-type: "MSc dissertation (Data Analytics and Technology)"
+    institution:
+      name: "University of Bolton"
+    year: 2023
+    month: 8
